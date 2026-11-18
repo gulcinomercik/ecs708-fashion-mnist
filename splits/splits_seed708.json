@@ -1,0 +1,106 @@
+{
+  "seed": 708,
+  "method": "sklearn.model_selection.train_test_split(stratify=labels, random_state=seed)",
+  "source": {
+    "train_idx": "official train",
+    "val_idx": "official train",
+    "train_subset10k_idx": "official train (subset of train_idx)",
+    "cluster_train_idx": "official train (subset of train_idx)",
+    "cluster_val_idx": "official train (subset of val_idx)",
+    "cluster_test_idx": "official test"
+  },
+  "sizes": {
+    "train_idx": 50000,
+    "val_idx": 10000,
+    "train_subset10k_idx": 10000,
+    "cluster_train_idx": 3000,
+    "cluster_val_idx": 1000,
+    "cluster_test_idx": 1000
+  },
+  "class_counts": {
+    "train_idx": {
+      "T-shirt/top": 5000,
+      "Trouser": 5000,
+      "Pullover": 5000,
+      "Dress": 5000,
+      "Coat": 5000,
+      "Sandal": 5000,
+      "Shirt": 5000,
+      "Sneaker": 5000,
+      "Bag": 5000,
+      "Ankle boot": 5000
+    },
+    "val_idx": {
+      "T-shirt/top": 1000,
+      "Trouser": 1000,
+      "Pullover": 1000,
+      "Dress": 1000,
+      "Coat": 1000,
+      "Sandal": 1000,
+      "Shirt": 1000,
+      "Sneaker": 1000,
+      "Bag": 1000,
+      "Ankle boot": 1000
+    },
+    "train_subset10k_idx": {
+      "T-shirt/top": 1000,
+      "Trouser": 1000,
+      "Pullover": 1000,
+      "Dress": 1000,
+      "Coat": 1000,
+      "Sandal": 1000,
+      "Shirt": 1000,
+      "Sneaker": 1000,
+      "Bag": 1000,
+      "Ankle boot": 1000
+    },
+    "cluster_train_idx": {
+      "T-shirt/top": 300,
+      "Trouser": 300,
+      "Pullover": 300,
+      "Dress": 300,
+      "Coat": 300,
+      "Sandal": 300,
+      "Shirt": 300,
+      "Sneaker": 300,
+      "Bag": 300,
+      "Ankle boot": 300
+    },
+    "cluster_val_idx": {
+      "T-shirt/top": 100,
+      "Trouser": 100,
+      "Pullover": 100,
+      "Dress": 100,
+      "Coat": 100,
+      "Sandal": 100,
+      "Shirt": 100,
+      "Sneaker": 100,
+      "Bag": 100,
+      "Ankle boot": 100
+    },
+    "cluster_test_idx": {
+      "T-shirt/top": 100,
+      "Trouser": 100,
+      "Pullover": 100,
+      "Dress": 100,
+      "Coat": 100,
+      "Sandal": 100,
+      "Shirt": 100,
+      "Sneaker": 100,
+      "Bag": 100,
+      "Ankle boot": 100
+    },
+    "official_test": {
+      "T-shirt/top": 1000,
+      "Trouser": 1000,
+      "Pullover": 1000,
+      "Dress": 1000,
+      "Coat": 1000,
+      "Sandal": 1000,
+      "Shirt": 1000,
+      "Sneaker": 1000,
+      "Bag": 1000,
+      "Ankle boot": 1000
+    }
+  }
+}
