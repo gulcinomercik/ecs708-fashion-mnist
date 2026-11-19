@@ -6,7 +6,7 @@ Coursework for ECS708 (Queen Mary University of London, 2026/27). Main file: `ec
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook ecs708_fashion_mnist.ipynb   # run from this folder: Restart and run all (about 8 minutes on CPU)
+jupyter notebook ecs708_fashion_mnist.ipynb   # run from this folder: Restart and run all (about 15 minutes on CPU)
 ```
 
 Data: Fashion-MNIST is downloaded automatically with `torchvision` into `data/fashion/` if missing (or copy the four `.gz` files from the [Zalando repository](https://github.com/zalandoresearch/fashion-mnist/tree/master/data/fashion)).
