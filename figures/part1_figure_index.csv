@@ -3,4 +3,5 @@ figures/fig1_complexity_train_vs_val.png,1.4,ecs708_fashion_mnist.ipynb,"Train (
 figures/fig2_per_class_recall_precision.png,1.2,ecs708_fashion_mnist.ipynb,Recall and precision per class on the validation set for the three selected models (patterns distinguish the models).
 figures/fig3_confusion_matrices.png,1.3,ecs708_fashion_mnist.ipynb,Confusion matrices (counts; shading = row-normalised share) for the three selected models on the validation set.
 figures/fig4_error_examples.png,1.3,ecs708_fashion_mnist.ipynb,"Four randomly drawn validation images (seed 708) per agreement group; titles give the true class and the predictions of LR, tree and NB."
+figures/fig4b_easy_vs_hard_classes.png,1.3,ecs708_fashion_mnist.ipynb,"Five seeded random validation images for each of two easy and two hard classes, with LR and tree predictions."
 figures/fig5_threshold_tradeoff.png,1.5,ecs708_fashion_mnist.ipynb,ROC curves of the three models; LR error rates against threshold; LR expected cost per item against threshold for three cost scenarios (validation).

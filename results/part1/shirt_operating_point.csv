@@ -1,0 +1,4 @@
+decision rule,TP,FP,FN,TN,TPR,FPR,precision,accuracy,cost/item (B)
+never flag Shirt,0,0,1000,9000,0.0,0.0,,0.9,0.5
+"LR, default t = 0.5",525,230,475,8770,0.525,0.025555555555555557,0.695364238410596,0.9295,0.2605
+"LR, chosen operating point t = 0.164",829,986,171,8014,0.829,0.10955555555555556,0.4567493112947658,0.8843,0.1841

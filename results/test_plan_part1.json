@@ -5,7 +5,7 @@
   "models": {
     "logistic_regression": {
       "C": 0.1,
-      "max_iter": 400,
+      "max_iter": 5000,
       "seed": "deterministic"
     },
     "decision_tree": {
@@ -27,6 +27,11 @@
     "A: balanced (FN 1, FP 1)": 0.58,
     "B: missed shirt 5x worse (FN 5, FP 1)": 0.164,
     "C: false alarm 5x worse (FN 1, FP 5)": 0.838
+  },
+  "primary_operating_point": {
+    "scenario": "B: missed shirt 5x worse (FN 5, FP 1)",
+    "model": "LR",
+    "threshold": 0.164
   },
   "cost_scenarios": {
     "A: balanced (FN 1, FP 1)": [
