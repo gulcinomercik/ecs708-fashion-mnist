@@ -1,0 +1,10 @@
+scenario,model,best threshold,expected cost @ best,expected cost @ 0.5,never-shirt baseline,calibrated-theory threshold
+"A: balanced (FN 1, FP 1)",LR,0.58,0.0692,0.0705,0.1,0.5
+"A: balanced (FN 1, FP 1)",DT,0.601,0.0754,0.079,0.1,0.5
+"A: balanced (FN 1, FP 1)",NB,1.0,0.114,0.1189,0.1,0.5
+"B: missed shirt 5x worse (FN 5, FP 1)",LR,0.164,0.1841,0.2605,0.5,0.16666666666666666
+"B: missed shirt 5x worse (FN 5, FP 1)",DT,0.196,0.2118,0.2922,0.5,0.16666666666666666
+"B: missed shirt 5x worse (FN 5, FP 1)",NB,0.001,0.44,0.4441,0.5,0.16666666666666666
+"C: false alarm 5x worse (FN 1, FP 5)",LR,0.838,0.0902,0.1625,0.1,0.8333333333333334
+"C: false alarm 5x worse (FN 1, FP 5)",DT,0.924,0.1117,0.1818,0.1,0.8333333333333334
+"C: false alarm 5x worse (FN 1, FP 5)",NB,1.0,0.2336,0.2693,0.1,0.8333333333333334
