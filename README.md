@@ -13,7 +13,7 @@ Data: Fashion-MNIST is downloaded automatically with `torchvision` into `data/fa
 
 ## Reproducibility
 
-- Seed 708; saved split and subset indices in `splits/` (checked by the notebook on every run). All indices point into the official 60,000-image train array except `cluster_test_idx` (official test array).
+- Seed 2208; saved split and subset indices in `splits/` (checked by the notebook on every run). All indices point into the official 60,000-image train array except `cluster_test_idx` (official test array).
 - Experiment register: `results/experiment_register.csv`; frozen test plan: `results/test_plan_part1.json`. The test set is not used until the final guarded cell.
 - Hardware used: Intel Xeon @ 2.10 GHz, 2 CPU cores, 7 GB RAM, no GPU. Runtimes are recorded in the notebook and in `results/part1/runtimes_part1.csv`.
 

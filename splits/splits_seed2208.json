@@ -1,5 +1,5 @@
 {
-  "seed": 708,
+  "seed": 2208,
   "method": "train_test_split(stratify=labels, random_state=seed)",
   "sizes": {
     "train_idx": 50000,
