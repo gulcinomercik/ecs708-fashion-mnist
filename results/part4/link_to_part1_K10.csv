@@ -1,0 +1,7 @@
+class pair,cluster overlap,Part 1 LR confusion rate,rank by LR confusion (of 45)
+Pullover / Coat,0.8666666666666666,0.104,2
+Pullover / Shirt,0.7433333333333334,0.094,3
+Coat / Shirt,0.7400000000000001,0.0935,4
+Trouser / Dress,0.6233333333333333,0.0155,12
+T-shirt/top / Shirt,0.5833333333333333,0.115,1
+T-shirt/top / Dress,0.52,0.043,5
