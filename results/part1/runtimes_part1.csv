@@ -1,78 +1,91 @@
 what,seconds
-fit LR C=0.0001,7.808317812000041
-fit LR C=0.001,10.916495588000089
-fit LR C=0.01,16.947020926000278
-fit LR C=0.1,22.356578675000037
-fit LR C=0.3,34.5769718800002
-fit LR C=1,50.18693822199975
-fit LR C=3,67.15398253800004
-fit LR C=10,103.49394093499996
-fit tree depth=1,1.3372350549998373
-fit tree depth=2,2.66970251299972
-fit tree depth=3,4.087490102999709
-fit tree depth=4,4.97865879200026
-fit tree depth=5,6.755185493000226
-fit tree depth=6,7.674969151999903
-fit tree depth=8,10.883891725000012
-fit tree depth=10,12.457228311000108
-fit tree depth=12,14.855898061000062
-fit tree depth=15,17.505087509000077
-fit tree depth=20,18.517083252000248
-fit tree depth=None,17.784936701999868
-fit NB var_smoothing=1e-09,0.19439818499995454
-fit NB var_smoothing=1e-07,0.17911523200018564
-fit NB var_smoothing=1e-05,0.17474389100016197
-fit NB var_smoothing=0.001,0.17629133700029342
-fit NB var_smoothing=0.01,0.1708189430000857
-fit NB var_smoothing=0.1,0.15336614000034388
-fit NB var_smoothing=0.3,0.18361829500008753
-fit NB var_smoothing=1,0.1870773939999708
-fit tree seed=2208,15.731742589000078
-fit tree seed=1,15.635653604000254
-fit tree seed=2,14.877768328999991
-predict LR (10000 images),0.011321555999984412
-predict DT (10000 images),0.004905808999865258
-predict NB (10000 images),0.1476103410000178
-"train MLP small 32, seed 2208 (60 epochs)",17.228373336999994
-"train MLP small 32, seed 1 (60 epochs)",18.189855193999847
-"train MLP small 32, seed 2 (60 epochs)",16.92923330800022
-"train MLP baseline 128, seed 2208 (60 epochs)",26.672641939000187
-"train MLP baseline 128, seed 1 (60 epochs)",28.341747784999825
-"train MLP baseline 128, seed 2 (60 epochs)",27.85088385500012
-"train MLP large 256-128, seed 2208 (60 epochs)",47.30325964399981
-"train MLP large 256-128, seed 1 (60 epochs)",46.957022552000126
-"train MLP large 256-128, seed 2 (60 epochs)",46.41260432099989
-"train MLP lr 0.01, seed 2208 (60 epochs)",27.527857142999892
-"train MLP lr 0.01, seed 1 (60 epochs)",27.417688746000294
-"train MLP lr 0.01, seed 2 (60 epochs)",26.709269631000097
-"train MLP lr 0.5, seed 2208 (60 epochs)",28.374655690000054
-"train MLP lr 0.5, seed 1 (60 epochs)",27.794783477999772
-"train MLP lr 0.5, seed 2 (60 epochs)",27.096732214999975
-"train MLP wd 1e-4, seed 2208 (60 epochs)",47.88746787500031
-"train MLP wd 1e-4, seed 1 (60 epochs)",47.64896037900007
-"train MLP wd 1e-4, seed 2 (60 epochs)",48.337801220000074
-"train MLP wd 1e-3, seed 2208 (60 epochs)",47.07874416899995
-"train MLP wd 1e-3, seed 1 (60 epochs)",48.39027122400012
-"train MLP wd 1e-3, seed 2 (60 epochs)",49.38947351399975
-"train MLP wd 1e-2, seed 2208 (60 epochs)",50.06510084999991
-"train MLP wd 1e-2, seed 1 (60 epochs)",49.28197598199995
-"train MLP wd 1e-2, seed 2 (60 epochs)",49.43148134000012
-"train MLP large, init seed 1, batch order 2208",49.453813838000315
-"train MLP large, init seed 2208, batch order 1",49.235255528999915
-kmeans raw pixels K=2 (3 seeds x 10 starts),0.44968780899989724
-kmeans raw pixels K=3 (3 seeds x 10 starts),0.8169002220001857
-kmeans raw pixels K=4 (3 seeds x 10 starts),0.5163054610002291
-kmeans raw pixels K=5 (3 seeds x 10 starts),0.8579605059999267
-kmeans raw pixels K=6 (3 seeds x 10 starts),0.7905025509999177
-kmeans raw pixels K=8 (3 seeds x 10 starts),0.9090830400000414
-kmeans raw pixels K=10 (3 seeds x 10 starts),1.0952056460000676
-kmeans raw pixels K=12 (3 seeds x 10 starts),1.1356744520003303
-kmeans raw pixels K=14 (3 seeds x 10 starts),1.4407466309999108
-kmeans raw pixels K=16 (3 seeds x 10 starts),1.1194664089998696
-kmeans raw pixels K=20 (3 seeds x 10 starts),1.444854974000009
-kmeans raw pixels K=24 (3 seeds x 10 starts),1.2066425400003027
-kmeans raw pixels K=30 (3 seeds x 10 starts),1.6639886730004037
-hierarchical linkage single (500 images),0.04218829100000221
-hierarchical linkage complete (500 images),0.04234770999983084
-hierarchical linkage average (500 images),0.040661095999894314
-hierarchical linkage ward (500 images),0.040865236000172445
+fit LR C=0.0001,6.753693028000043
+fit LR C=0.001,9.511296038999944
+fit LR C=0.01,14.778568580999945
+fit LR C=0.1,21.6513156970002
+fit LR C=0.3,32.90145727799995
+fit LR C=1,44.21357747000002
+fit LR C=3,71.79420979800011
+fit LR C=10,105.70774202100006
+fit tree depth=1,1.2141887039999801
+fit tree depth=2,2.641645156000095
+fit tree depth=3,3.888355504000174
+fit tree depth=4,5.060597642999937
+fit tree depth=5,6.499638693999941
+fit tree depth=6,7.817214911999827
+fit tree depth=8,10.257593501000201
+fit tree depth=10,13.074916397999914
+fit tree depth=12,15.02448735300004
+fit tree depth=15,17.807124423000005
+fit tree depth=20,18.94944144399983
+fit tree depth=None,18.844159492000017
+fit NB var_smoothing=1e-09,0.1895585239999491
+fit NB var_smoothing=1e-07,0.14513144900001862
+fit NB var_smoothing=1e-05,0.17578134599989426
+fit NB var_smoothing=0.001,0.17851619999987633
+fit NB var_smoothing=0.01,0.20114922499988097
+fit NB var_smoothing=0.1,0.17587577299991608
+fit NB var_smoothing=0.3,0.17886717399983354
+fit NB var_smoothing=1,0.15244710299998587
+fit tree seed=2208,14.758938461999833
+fit tree seed=1,14.73794940699986
+fit tree seed=2,15.178330412999912
+predict LR (10000 images),0.011024795999901471
+predict DT (10000 images),0.0046668279999266815
+predict NB (10000 images),0.1324576930001058
+"train MLP small 32, seed 2208 (60 epochs)",16.76639259300009
+"train MLP small 32, seed 1 (60 epochs)",17.604990511000096
+"train MLP small 32, seed 2 (60 epochs)",15.934732880999945
+"train MLP baseline 128, seed 2208 (60 epochs)",26.903434099999913
+"train MLP baseline 128, seed 1 (60 epochs)",26.019978878999837
+"train MLP baseline 128, seed 2 (60 epochs)",26.70628201799991
+"train MLP large 256-128, seed 2208 (60 epochs)",46.52415111500022
+"train MLP large 256-128, seed 1 (60 epochs)",47.629840163999916
+"train MLP large 256-128, seed 2 (60 epochs)",46.24949191699989
+"train MLP lr 0.01, seed 2208 (60 epochs)",25.759533303999888
+"train MLP lr 0.01, seed 1 (60 epochs)",25.5565954839999
+"train MLP lr 0.01, seed 2 (60 epochs)",25.844813426999735
+"train MLP lr 0.5, seed 2208 (60 epochs)",25.915695889999824
+"train MLP lr 0.5, seed 1 (60 epochs)",26.954627954999978
+"train MLP lr 0.5, seed 2 (60 epochs)",25.852841546000036
+"train MLP wd 1e-4, seed 2208 (60 epochs)",47.102046356999836
+"train MLP wd 1e-4, seed 1 (60 epochs)",46.47411365500011
+"train MLP wd 1e-4, seed 2 (60 epochs)",47.28184194300002
+"train MLP wd 1e-3, seed 2208 (60 epochs)",47.33295422299989
+"train MLP wd 1e-3, seed 1 (60 epochs)",48.6167034719997
+"train MLP wd 1e-3, seed 2 (60 epochs)",49.28799536099996
+"train MLP wd 1e-2, seed 2208 (60 epochs)",47.03878354900007
+"train MLP wd 1e-2, seed 1 (60 epochs)",47.63839116000008
+"train MLP wd 1e-2, seed 2 (60 epochs)",46.41569986200011
+"train MLP large, init seed 1, batch order 2208",47.3629292630003
+"train MLP large, init seed 2208, batch order 1",49.419070851000015
+kmeans raw pixels K=2 (3 seeds x 10 starts),0.3655820510002741
+kmeans raw pixels K=3 (3 seeds x 10 starts),0.6593377510002938
+kmeans raw pixels K=4 (3 seeds x 10 starts),0.40304519799974514
+kmeans raw pixels K=5 (3 seeds x 10 starts),0.6186093569999684
+kmeans raw pixels K=6 (3 seeds x 10 starts),0.7965838919999442
+kmeans raw pixels K=8 (3 seeds x 10 starts),0.8974236059998475
+kmeans raw pixels K=10 (3 seeds x 10 starts),1.1964698990000215
+kmeans raw pixels K=12 (3 seeds x 10 starts),1.1257679270001972
+kmeans raw pixels K=14 (3 seeds x 10 starts),1.47222373600016
+kmeans raw pixels K=16 (3 seeds x 10 starts),1.0548986580001838
+kmeans raw pixels K=20 (3 seeds x 10 starts),1.4394866920001732
+kmeans raw pixels K=24 (3 seeds x 10 starts),1.269077654999819
+kmeans raw pixels K=30 (3 seeds x 10 starts),1.6878666450002129
+hierarchical linkage single (500 images),0.030349917999956233
+hierarchical linkage complete (500 images),0.030995801000244683
+hierarchical linkage average (500 images),0.03192940200005978
+hierarchical linkage ward (500 images),0.030826175999663974
+kmeans learned features K=2 (3 seeds x 10 starts),0.046630327999992005
+kmeans learned features K=3 (3 seeds x 10 starts),0.06968324499985101
+kmeans learned features K=4 (3 seeds x 10 starts),0.06991243299989947
+kmeans learned features K=5 (3 seeds x 10 starts),0.16035552300036215
+kmeans learned features K=6 (3 seeds x 10 starts),0.13687486900016665
+kmeans learned features K=8 (3 seeds x 10 starts),0.16696269400017627
+kmeans learned features K=10 (3 seeds x 10 starts),0.1956277880003654
+kmeans learned features K=12 (3 seeds x 10 starts),0.19748784900002647
+kmeans learned features K=14 (3 seeds x 10 starts),0.27663890599978913
+kmeans learned features K=16 (3 seeds x 10 starts),0.20645687300020654
+kmeans learned features K=20 (3 seeds x 10 starts),0.266495259000294
+kmeans learned features K=24 (3 seeds x 10 starts),0.29022185699977854
+kmeans learned features K=30 (3 seeds x 10 starts),0.33686148199967647

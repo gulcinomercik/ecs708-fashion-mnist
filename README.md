@@ -14,7 +14,7 @@ Data: Fashion-MNIST is downloaded automatically with `torchvision` into `data/fa
 ## Reproducibility
 
 - Seed 2208; saved split and subset indices in `splits/` (including the 500-image hierarchical subset `hier_subset_seed2208.npz`) (checked by the notebook on every run). All indices point into the official 60,000-image train array except `cluster_test_idx` (official test array).
-- Experiment register: `results/experiment_register.csv` (IDs: `P1-*` classical models, `P2-CAP/OPT-*` capacity and learning rate, `P3-WD/STRAT/SEED-*` regularisation, `P4-K/STAB/INTERP/LINK/HIER-*` clustering); tables per part in `results/part1` to `results/part4`; frozen test plan: `results/test_plan_part1.json`. The test set is not used until the final guarded cell.
+- Experiment register: `results/experiment_register.csv` (IDs: `P1-*` classical models, `P2-CAP/OPT-*` capacity and learning rate, `P3-WD/STRAT/SEED-*` regularisation, `P4-K/STAB/INTERP/LINK/HIER-*` clustering); tables per part in `results/part1` to `results/part5`; `P5-FEAT/ENS/CLTEST-*` learned features, ensemble and test clustering; frozen test plan: `results/test_plan.json` (Parts 1, 4, 5.1, 5.2). The test set is not used until the final guarded cell.
 - Hardware used: Intel Xeon @ 2.10 GHz, 2 CPU cores, 7 GB RAM, no GPU. Runtimes are recorded in the notebook and in `results/part1/runtimes_part1.csv`.
 
 ## AI and external code acknowledgement
