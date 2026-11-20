@@ -1,0 +1,4 @@
+model,accuracy,95% interval,macro-F1,Shirt ROC AUC
+Logistic regression (C=0.1),0.8445,"[0.8373, 0.8515]",0.8436597442744933,0.933842
+Decision tree (max_depth=12),0.8111,"[0.8033, 0.8187]",0.8111450362536423,0.8577937222222222
+Gaussian NB (var_smoothing=0.1),0.6718,"[0.6625, 0.6809]",0.6590246728528232,0.6878933333333334
