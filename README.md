@@ -6,7 +6,7 @@ Coursework for ECS708 (Queen Mary University of London, 2026/27). Main file: `ec
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook ecs708_fashion_mnist.ipynb   # run from this folder: Restart and run all (about 25 minutes on CPU)
+jupyter notebook ecs708_fashion_mnist.ipynb   # run from this folder: Restart and run all (about 25 minutes on CPU; the final test evaluation runs only when `RUN_FINAL_TEST = True`, set in the last code section)
 ```
 
 Data: Fashion-MNIST is downloaded automatically with `torchvision` into `data/fashion/` if missing (or copy the four `.gz` files from the [Zalando repository](https://github.com/zalandoresearch/fashion-mnist/tree/master/data/fashion)).
@@ -19,4 +19,4 @@ Data: Fashion-MNIST is downloaded automatically with `torchvision` into `data/fa
 
 ## AI and external code acknowledgement
 
-I used Claude (Anthropic) as a study and coding assistant: to explain concepts, draft code and notebook text, and run experiments. I reviewed the code and results and can explain them. Libraries: NumPy, SciPy, pandas, scikit-learn, PyTorch, torchvision, matplotlib, seaborn. Dataset: Fashion-MNIST (Zalando Research).
+I used Claude (Anthropic) as a study and coding assistant: to explain concepts, draft code and notebook text, and run experiments. I reviewed the code and results and can explain them. **How the assistance was checked: [GULCIN: write what you actually did, e.g. re-derived the formulas by hand, re-ran cells and compared outputs, checked numbers against the consistency cell, read every figure, explained each part aloud; delete what is not true].** All numbers quoted in the notebook text are re-computed by an assertion cell at the end of the notebook; text and results were checked against each other, and I wrote or rewrote the explanations in my own words where marked. Libraries: NumPy, SciPy, pandas, scikit-learn, PyTorch, torchvision, matplotlib, seaborn. Dataset: Fashion-MNIST (Zalando Research).
